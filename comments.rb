@@ -40,10 +40,10 @@ delete '/comments/:cid' do
 end
 
 post '/comments' do  
-  comment = Comment.create(params[:comment])
-  comment.save
-  redirect to("/comments/#{comment.cid}")
-end
+	comment = Comment.create(params[:comment])
+	comment.save
+	redirect to("/comments/#{comment.cid}")
+  end
 
 get '/comments/:cid/viewdetails' do
 	@comment=Comment.get(params[:cid])
