@@ -1,2 +1,6 @@
+
 Name: Krishnakumar Kandhani	
-Heroku id:ruby-sinatra-app.herokuapp.com
+
+https://rubysinatraapp.herokuapp.com/
+Username: krishna
+Password: password
