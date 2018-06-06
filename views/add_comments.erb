@@ -1,20 +1,25 @@
 <html>
   <head>
-    <title>Add Comments</title>
-    <link rel="stylesheet" href="/style.css">
+    <title>Add Comment</title>
+    <link href="/style.css" rel='stylesheet', type='text/css'>
+    
     <head>
   <body>
-    <h1>You can add you comments below.</h1>
-    <div>
-      <form method="post" action="/comments">
-        <label for="comment">Comment</label>
-        <input type="text" id="comment" name=comment[comment] placeholder="Comment...">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name=comment[name] placeholder="First Name">
+    <h1>Student Information System</h1>
+<div>
+<br><br>
+      <form method="post" action='/comments'>
+        <label for="comment">Comment:</label>
+        <input type="text" id="comment" name=comment[comment] placeholder="Comment" required>
+        <br><br>
+        <label for="fname">Name:</label>
+        <input type="text" id="name" name=comment[name] placeholder="First Name" required>
+        <br><br>
         <input type="submit" name="add" value="Add">
+        <br>
       </form>
     </div>
     <div><a href='/comments'>Go Back</a></div>
-    </form>
-  </body>
+</form>
+</body>
 </html>
